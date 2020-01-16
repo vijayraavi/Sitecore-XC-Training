@@ -1,0 +1,9 @@
+﻿/.vs
+/[dD]ata/*/**
+!/[dD]ata/*/.gitkeep
+/[dD]eploy/*/**
+!/[dD]eploy/*/.gitkeep
+**/[oO]bj/[dD]ebug
+**/[bB]in
+/[pP]ackages
+**.user

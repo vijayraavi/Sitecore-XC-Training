@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{EF2BBD7E-20C4-423D-9E3D-E733833F67C4}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		.gitignore = .gitignore
+		Clean-Data.ps1 = Clean-Data.ps1
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{7224C107-5C53-4192-B5A7-6303BA5A99DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{24ED8709-C1AC-4AB3-B1AC-D14591A5AAB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{F17025D1-BD36-4204-9C00-76EE5B957BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{01BB2B0C-3105-4E77-AFB1-74C334520545}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training.Project.Demo", "src\Project\Demo\website\Training.Project.Demo.csproj", "{AC3CC02C-72B6-4BE9-9F2D-607AA44E46AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3CC02C-72B6-4BE9-9F2D-607AA44E46AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3CC02C-72B6-4BE9-9F2D-607AA44E46AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3CC02C-72B6-4BE9-9F2D-607AA44E46AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3CC02C-72B6-4BE9-9F2D-607AA44E46AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01BB2B0C-3105-4E77-AFB1-74C334520545} = {F17025D1-BD36-4204-9C00-76EE5B957BCB}
+		{AC3CC02C-72B6-4BE9-9F2D-607AA44E46AA} = {01BB2B0C-3105-4E77-AFB1-74C334520545}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E593D0E-1A5D-4D47-B1D0-85AB00A0A426}
+	EndGlobalSection
+EndGlobal
